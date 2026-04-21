@@ -1,12 +1,400 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyek Saya - Portofolio Modern</title>
+    <link rel="stylesheet" href="nyoba.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>pindah disini
-    </h1>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1><a href="nyoba.html" style="color: inherit; text-decoration: none;">Portfolio</a></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="nyoba.html#home">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="nyoba.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="projects-page">
+        <div class="container">
+            <div class="projects-header">
+                <h1 class="section-title">Proyek Saya</h1>
+                <p class="projects-subtitle">Koleksi karya dan proyek yang telah saya kembangkan dengan passion dan dedikasi</p>
+            </div>
+
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="other">Lainnya</button>
+            </div>
+
+            <div class="projects-grid-detailed">
+                <div class="project-detail-card" data-category="web">
+                    <div class="project-image-large">
+                        <div class="project-placeholder-large">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-category">Web App</div>
+                    </div>
+                    <div class="project-content-detailed">
+                        <h3>E-Commerce Platform "ShopHub"</h3>
+                        <p class="project-date">Januari 2023 - Juni 2023</p>
+                        <p class="project-description">Platform e-commerce lengkap yang dibangun untuk membantu UMKM lokal dalam menjangkau pasar online. Fitur utama meliputi katalog produk, keranjang belanja, sistem pembayaran terintegrasi, dashboard admin, dan analitik penjualan.</p>
+                        
+                        <div class="project-features">
+                            <h4>Fitur Utama:</h4>
+                            <ul>
+                                <li>Sistem autentikasi dan otorisasi pengguna</li>
+                                <li>Katalog produk dengan filter dan pencarian</li>
+                                <li>Keranjang belanja dan checkout process</li>
+                                <li>Integrasi Midtrans untuk pembayaran</li>
+                                <li>Dashboard admin untuk manajemen produk</li>
+                                <li>Laporan penjualan dan analitik</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <h4>Teknologi yang Digunakan:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe API</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                        </div>
+
+                        <div class="project-challenges">
+                            <h4>Tantangan & Solusi:</h4>
+                            <p>Mengoptimalkan performa untuk menangani traffic tinggi dengan implementasi caching dan database indexing. Mengatasi kompleksitas state management dengan Redux untuk aplikasi React yang kompleks.</p>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-outline">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-detail-card" data-category="mobile">
+                    <div class="project-image-large">
+                        <div class="project-placeholder-large">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-category">Mobile App</div>
+                    </div>
+                    <div class="project-content-detailed">
+                        <h3>Task Management App "TaskFlow"</h3>
+                        <p class="project-date">September 2022 - Desember 2022</p>
+                        <p class="project-description">Aplikasi mobile untuk manajemen tugas dan produktivitas yang membantu pengguna mengorganisir pekerjaan sehari-hari. Aplikasi ini memiliki fitur reminder, kategorisasi tugas, dan sinkronisasi cloud.</p>
+                        
+                        <div class="project-features">
+                            <h4>Fitur Utama:</h4>
+                            <ul>
+                                <li>Manajemen tugas dengan prioritas</li>
+                                <li>Kategorisasi dan tagging</li>
+                                <li>Reminder dan notifikasi</li>
+                                <li>Sync dengan cloud storage</li>
+                                <li>Dark mode dan tema kustom</li>
+                                <li>Backup dan restore data</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <h4>Teknologi yang Digunakan:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">AsyncStorage</span>
+                                <span class="tech-tag">Expo</span>
+                                <span class="tech-tag">Redux Toolkit</span>
+                            </div>
+                        </div>
+
+                        <div class="project-challenges">
+                            <h4>Tantangan & Solusi:</h4>
+                            <p>Mengimplementasikan offline-first approach dengan local storage dan sync mechanism. Mengoptimalkan performa UI dengan FlatList virtualization untuk handling ribuan tasks.</p>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Download APK</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-outline">App Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-detail-card" data-category="web">
+                    <div class="project-image-large">
+                        <div class="project-placeholder-large">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-category">Web App</div>
+                    </div>
+                    <div class="project-content-detailed">
+                        <h3>Dashboard Analytics "DataViz Pro"</h3>
+                        <p class="project-date">April 2023 - Agustus 2023</p>
+                        <p class="project-description">Dashboard analitik interaktif untuk visualisasi data bisnis dengan real-time updates. Platform ini membantu perusahaan membuat keputusan berbasis data dengan chart dan grafik yang informatif.</p>
+                        
+                        <div class="project-features">
+                            <h4>Fitur Utama:</h4>
+                            <ul>
+                                <li>Visualisasi data real-time</li>
+                                <li>Custom dashboard builder</li>
+                                <li>Export laporan ke PDF/Excel</li>
+                                <li>Role-based access control</li>
+                                <li>API integration untuk data sources</li>
+                                <li>Alert system untuk KPI monitoring</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <h4>Teknologi yang Digunakan:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">WebSocket</span>
+                            </div>
+                        </div>
+
+                        <div class="project-challenges">
+                            <h4>Tantangan & Solusi:</h4>
+                            <p>Mengoptimalkan rendering chart untuk dataset besar dengan virtual scrolling dan data aggregation. Implementasi real-time updates menggunakan WebSocket untuk live data streaming.</p>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-outline">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-detail-card" data-category="design">
+                    <div class="project-image-large">
+                        <div class="project-placeholder-large">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="project-category">UI/UX Design</div>
+                    </div>
+                    <div class="project-content-detailed">
+                        <h3>Redesign Banking App "FinWise"</h3>
+                        <p class="project-date">November 2022 - Februari 2023</p>
+                        <p class="project-description">Redesign komprehensif untuk aplikasi mobile banking dengan fokus pada user experience yang intuitif dan modern. Proyek ini melibatkan research user, prototyping, dan implementasi design system.</p>
+                        
+                        <div class="project-features">
+                            <h4>Fitur Utama:</h4>
+                            <ul>
+                                <li>Dashboard keuangan yang personal</li>
+                                <li>Transfer uang yang simplified</li>
+                                <li>Investment tracking</li>
+                                <li>Budget planning tools</li>
+                                <li>Security features yang user-friendly</li>
+                                <li>Voice command integration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <h4>Tools yang Digunakan:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Adobe XD</span>
+                                <span class="tech-tag">Sketch</span>
+                                <span class="tech-tag">InVision</span>
+                                <span class="tech-tag">Principle</span>
+                            </div>
+                        </div>
+
+                        <div class="project-challenges">
+                            <h4>Tantangan & Solusi:</h4>
+                            <p>Menyederhanakan kompleksitas banking interface menjadi experience yang simple namun powerful. Melakukan user testing ekstensif untuk memastikan accessibility dan usability.</p>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Design</a>
+                            <a href="#" class="btn btn-outline">Case Study</a>
+                            <a href="#" class="btn btn-outline">Prototype</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-detail-card" data-category="web">
+                    <div class="project-image-large">
+                        <div class="project-placeholder-large">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-category">Web App</div>
+                    </div>
+                    <div class="project-content-detailed">
+                        <h3>Learning Management System "EduLearn"</h3>
+                        <p class="project-date">Juli 2023 - Oktober 2023</p>
+                        <p class="project-description">Platform e-learning komprehensif untuk institusi pendidikan dengan fitur kursus online, assessment, dan tracking progress siswa. Sistem ini mendukung berbagai format konten dan interaksi real-time.</p>
+                        
+                        <div class="project-features">
+                            <h4>Fitur Utama:</h4>
+                            <ul>
+                                <li>Course management system</li>
+                                <li>Video streaming dan interactive content</li>
+                                <li>Online assessment dan quiz</li>
+                                <li>Progress tracking dan certificates</li>
+                                <li>Discussion forums</li>
+                                <li>Live webinar integration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <h4>Teknologi yang Digunakan:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Redis</span>
+                                <span class="tech-tag">AWS S3</span>
+                                <span class="tech-tag">WebRTC</span>
+                            </div>
+                        </div>
+
+                        <div class="project-challenges">
+                            <h4>Tantangan & Solusi:</h4>
+                            <p>Mengoptimalkan delivery konten video dengan adaptive bitrate streaming. Implementasi scalable architecture untuk menangani ribuan concurrent users dengan load balancing.</p>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-outline">Admin Panel</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-detail-card" data-category="other">
+                    <div class="project-image-large">
+                        <div class="project-placeholder-large">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-category">AI/ML</div>
+                    </div>
+                    <div class="project-content-detailed">
+                        <h3>Chatbot Customer Service "AI Helper"</h3>
+                        <p class="project-date">Maret 2023 - Mei 2023</p>
+                        <p class="project-description">Chatbot AI cerdas untuk customer service yang dapat menangani pertanyaan umum, memberikan rekomendasi produk, dan escalate ke human agent ketika diperlukan.</p>
+                        
+                        <div class="project-features">
+                            <h4>Fitur Utama:</h4>
+                            <ul>
+                                <li>Natural language processing</li>
+                                <li>Context-aware responses</li>
+                                <li>Multi-platform integration</li>
+                                <li>Sentiment analysis</li>
+                                <li>Automated escalation</li>
+                                <li>Analytics dashboard</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-stack">
+                            <h4>Teknologi yang Digunakan:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+
+                        <div class="project-challenges">
+                            <h4>Tantangan & Solusi:</h4>
+                            <p>Melatih model NLP untuk bahasa Indonesia dengan dataset terbatas. Implementasi fallback mechanism untuk menangani query di luar knowledge base.</p>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Try Chatbot</a>
+                            <a href="#" class="btn btn-outline">GitHub</a>
+                            <a href="#" class="btn btn-outline">API Docs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Portfolio</h3>
+                    <p>Menciptakan pengalaman digital yang luar biasa.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 [Nama Anda]. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="nyoba.js"></script>
+    <script>
+        // Project filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-detail-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+
+                    const filterValue = button.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
